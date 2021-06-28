@@ -1,0 +1,40 @@
+{
+    "CaseName": "raw_001",
+    "TestData": "TestData_Raw_All_001",
+    "Triggers": [
+        {
+            "TriggerName": "trigger1",
+            "CrawlerName": "clawer1agent"
+        },
+        {
+            "TriggerName": "trigger1",
+            "CrawlerName": "clawer1device"
+        },
+        {
+            "TriggerName": "trigger1",
+            "CrawlerName": "clawer1agent"
+        },
+        {
+            "TriggerName": "trigger1",
+            "CrawlerName": "clawer1device"
+        }
+    ],
+    "Query": [
+        {
+            "QueryName": "query1",
+            "ExpectedData": "expected1agent"
+        },
+        {
+            "QueryName": "query1",
+            "ExpectedData": "expected1device"
+        },
+        {
+            "QueryName": "query1",
+            "ExpectedData": "expected1agent"
+        },
+        {
+            "QueryName": "query1",
+            "ExpectedData": "expected1device"
+        }
+    ]
+}
